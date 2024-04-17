@@ -1,0 +1,63 @@
+.main_div_Login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+    width: 100%;
+
+}
+.input_div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.input_div input{
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+.auth_form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 500px;
+    background: rgba(178, 219, 231, 0.514) !important;
+    padding: 2rem;
+    border-radius: 10px;
+
+}
+.btn_signIn{
+    background: rgba(178, 219, 231, 0.514) !important;
+    color: #0a0a0a !important;
+    text-transform: capitalize !important;
+    font-weight: 500 !important;
+}
+input:focus{
+    outline-color: #9c27b0;
+}
+.not_have_account{
+    color: #9c27b0;
+    font-weight: 600;
+    cursor: pointer;
+}
+.pwd_sms{
+    font-size: 13px;
+    margin: 0;
+    color: rgba(252, 40, 40, 0.932);
+}
+.show_pass{
+    display: flex;
+    align-items: center;
+    width: 104%;
+}
+.show_pass input{
+    width: 100%;
+}
+.icon_register{
+    position: relative;
+    right: 33px;
+}
+.icon_register svg{
+    color: #9c27b0;
+}
